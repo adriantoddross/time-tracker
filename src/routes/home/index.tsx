@@ -31,6 +31,16 @@ const Home: FunctionalComponent = () => {
           spellCheck={true}
           minLength={1}
         />
+
+<label for="project">Project</label>
+        <input
+          type="text"
+          id="project"
+          name="project"
+          placeholder="E.g. Website Redesign, Logo Design, ..."
+          spellCheck={true}
+          minLength={1}
+        />
       </form>
     </div>
   );
