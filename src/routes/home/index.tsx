@@ -32,7 +32,7 @@ const Home: FunctionalComponent = () => {
           minLength={1}
         />
 
-<label for="project">Project</label>
+        <label for="project">Project</label>
         <input
           type="text"
           id="project"
@@ -40,6 +40,13 @@ const Home: FunctionalComponent = () => {
           placeholder="E.g. Website Redesign, Logo Design, ..."
           spellCheck={true}
           minLength={1}
+        />
+
+        <label for="start">Date</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
         />
       </form>
     </div>
