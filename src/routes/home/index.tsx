@@ -45,8 +45,8 @@ const Home: FunctionalComponent = () => {
         <label for="start">Date</label>
         <input type="date" id="date" name="date" />
 
-        <label for="time">Time</label>
-        <input type="time" id="time" name="time" />
+        <label for="start-time">Start Time</label>
+        <input type="time" id="start-time" name="start-time" />
       </form>
     </div>
   );
